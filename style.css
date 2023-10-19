@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    padding: 16px 100px;
+    background-color: #1F2937;
+}
+
+#header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.header-link, #Section1-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#header-links-container {
+    display: flex;
+    gap: 16px;
+}
+
+#Section1 {
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #1F2937;
+}
+
+#Section1-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#Section1-image {
+    background-color: gray;
+    align-self: stretch;
+    text-align: center;
+    width: 100%;
+}
+
+#Section1-text-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    width: 75px;
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#Section2, .Section2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Section2 {
+    padding: 40px 100px;
+}
+
+.Section2-container {
+    width: 150px;
+}
+
+#Section2-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+#Section2-slots {
+    display: flex;
+    gap: 40px;
+}
+
+.Section2-picture {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.Section2-text {
+    text-align: center;
+}
+
+#Section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding: 40px 100px;
+}
+
+#Section3-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+#Section3-author {
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+#Section4 {
+    display: flex;
+    margin: 60px 80px;
+    padding: 60px;
+    background-color: #3882F6
+}
+
+#Section4-title, #Section4-text {
+    color: #F9FAF8;
+}
+
+#Section4-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#Section4-button {
+    margin-left: auto;
+    height: 36px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8
+}
+
+footer {
+    color: #E5E7EB;
+    justify-content: center;;
+}
